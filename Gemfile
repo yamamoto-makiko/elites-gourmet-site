@@ -3,6 +3,11 @@ gem 'devise'
 gem 'carrierwave'
 gem 'twitter-bootstrap-rails'
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-line'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
