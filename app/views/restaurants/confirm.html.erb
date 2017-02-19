@@ -48,9 +48,9 @@
         <%= f.hidden_field :open_date %>
       </tr>
       <tr>
-        <th><%= f.label :introduction %></th>
-        <td><%= @restaurant.introduction %></td>
-        <%= f.hidden_field :introduction %>
+        <th><%= f.label :description %></th>
+        <td><%= raw @restaurant.description %></td>
+        <%= f.hidden_field :description %>
       </tr>
 
       <%= f.fields_for :restaurant_images do |rf| %>

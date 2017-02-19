@@ -10,7 +10,7 @@ ja:
         has_private_room: '個室'
         seat_count: '席数'
         open_date: 'オープン日'
-        introduction: '店舗紹介'
+        description: '店舗紹介'
         image: '画像'
     errors:
       messages:
