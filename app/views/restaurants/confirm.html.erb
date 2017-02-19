@@ -47,6 +47,11 @@
         <td><%= @restaurant.open_date %></td>
         <%= f.hidden_field :open_date %>
       </tr>
+      <tr>
+        <th><%= f.label :introduction %></th>
+        <td><%= @restaurant.introduction %></td>
+        <%= f.hidden_field :introduction %>
+      </tr>
 
       <%= f.fields_for :restaurant_images do |rf| %>
         <% if rf.object.image? %>
