@@ -14,7 +14,7 @@
             <%= render 'restaurants/genre_list', restaurant: restaurant %>
           </div>
           <div class="intruduction">
-            <%= truncate(restaurant.description, length: 34) %>
+            <%= truncate(strip_tags(restaurant.description), length: 34) %>
           </div>
         </div>
       </div>
